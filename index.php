@@ -69,9 +69,27 @@ src="https://www.facebook.com/tr?id=631426645796596&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Meta Pixel Code -->
 
+<!-- Event snippet for Contact conversion page -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-18111171205/PNnyCIKAyqAcEIWVirxD',
+      'value': 1.0,
+      'currency': 'IDR',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
+
   </head>
   <body>
-      <a href="https://api.whatsapp.com/send?phone=6282386318333&text=Mas,%20saya%20mau%20rental%20mobil%20-%20From%20www.rentcarprofessional.com" class="float" target="_blank">
+      <a href="https://api.whatsapp.com/send?phone=6282386318333&text=Mas,%20saya%20mau%20rental%20mobil%20-%20From%20www.rentcarprofessional.com" class="float" target="_blank" onclick="gtag_report_conversion();">
             <i class="fa fa-whatsapp my-float"></i>
       </a>
       <main>
@@ -134,7 +152,7 @@ src="https://www.facebook.com/tr?id=631426645796596&ev=PageView&noscript=1"
                                                       <div class="btn-group">
                                                             <a href="tel:082386318333" class="btn btn-warning">Telepon</a>
                                                             &nbsp;&nbsp;&nbsp;
-                                                            <a href="https://api.whatsapp.com/send?phone=6282386318333&text=Mas,%20saya%20mau%20rental%20mobil%20(%20Datsun%20Mt%20:%20Rp.%20250.000%20)%20-%20From%20www.rentcarprofessional.com" class="btn btn-success">WhatsApp</a>
+                                                            <a href="https://api.whatsapp.com/send?phone=6282386318333&text=Mas,%20saya%20mau%20rental%20mobil%20(%20Datsun%20Mt%20:%20Rp.%20250.000%20)%20-%20From%20www.rentcarprofessional.com" class="btn btn-success" onclick="return gtag_report_conversion(this.href);">WhatsApp</a>
                                                       </div>
                                                       <small class="text-dark">Durasi 24 Jam</small>
                                                 </div>
@@ -151,7 +169,7 @@ src="https://www.facebook.com/tr?id=631426645796596&ev=PageView&noscript=1"
                                                       <div class="btn-group">
                                                             <a href="tel:082386318333" class="btn btn-warning">Telepon</a>
                                                             &nbsp;&nbsp;&nbsp;
-                                                            <a href="https://api.whatsapp.com/send?phone=6282386318333&text=Mas,%20saya%20mau%20rental%20mobil%20(%20Ayla%20Mt%20:%20Rp.%20250.000%20)%20-%20From%20www.rentcarprofessional.com" class="btn btn-success">WhatsApp</a>
+                                                            <a href="https://api.whatsapp.com/send?phone=6282386318333&text=Mas,%20saya%20mau%20rental%20mobil%20(%20Ayla%20Mt%20:%20Rp.%20250.000%20)%20-%20From%20www.rentcarprofessional.com" class="btn btn-success" onclick="return gtag_report_conversion(this.href);">WhatsApp</a>
                                                       </div>
                                                       <small class="text-dark">Durasi 24 Jam</small>
                                                 </div>
@@ -168,7 +186,7 @@ src="https://www.facebook.com/tr?id=631426645796596&ev=PageView&noscript=1"
                                                       <div class="btn-group">
                                                             <a href="tel:082386318333" class="btn btn-warning">Telepon</a>
                                                             &nbsp;&nbsp;&nbsp;
-                                                            <a href="https://api.whatsapp.com/send?phone=6282386318333&text=Mas,%20saya%20mau%20rental%20mobil%20( Calya Mt : Rp. 250.000 )%20-%20From%20www.rentcarprofessional.com" class="btn btn-success">WhatsApp</a>
+                                                            <a href="https://api.whatsapp.com/send?phone=6282386318333&text=Mas,%20saya%20mau%20rental%20mobil%20( Calya Mt : Rp. 250.000 )%20-%20From%20www.rentcarprofessional.com" class="btn btn-success" onclick="return gtag_report_conversion(this.href);">WhatsApp</a>
                                                       </div>
                                                       <small class="text-dark">Durasi 24 Jam</small>
                                                 </div>
@@ -186,7 +204,7 @@ src="https://www.facebook.com/tr?id=631426645796596&ev=PageView&noscript=1"
                                                       <div class="btn-group">
                                                             <a href="tel:082386318333" class="btn btn-warning">Telepon</a>
                                                             &nbsp;&nbsp;&nbsp;
-                                                            <a href="https://api.whatsapp.com/send?phone=6282386318333&text=Mas,%20saya%20mau%20rental%20mobil%20( Ayla At : Rp. 300.000 )%20-%20From%20www.rentcarprofessional.com" class="btn btn-success">WhatsApp</a>
+                                                            <a href="https://api.whatsapp.com/send?phone=6282386318333&text=Mas,%20saya%20mau%20rental%20mobil%20( Ayla At : Rp. 300.000 )%20-%20From%20www.rentcarprofessional.com" class="btn btn-success" onclick="return gtag_report_conversion(this.href);">WhatsApp</a>
                                                       </div>
                                                       <small class="text-dark">Durasi 24 Jam</small>
                                                 </div>
@@ -203,7 +221,7 @@ src="https://www.facebook.com/tr?id=631426645796596&ev=PageView&noscript=1"
                                                       <div class="btn-group">
                                                             <a href="tel:082386318333" class="btn btn-warning">Telepon</a>
                                                             &nbsp;&nbsp;&nbsp;
-                                                            <a href="https://api.whatsapp.com/send?phone=6282386318333&text=Mas,%20saya%20mau%20rental%20mobil%20( Calya At : Rp. 300.000 )%20-%20From%20www.rentcarprofessional.com" class="btn btn-success">WhatsApp</a>
+                                                            <a href="https://api.whatsapp.com/send?phone=6282386318333&text=Mas,%20saya%20mau%20rental%20mobil%20( Calya At : Rp. 300.000 )%20-%20From%20www.rentcarprofessional.com" class="btn btn-success" onclick="return gtag_report_conversion(this.href);">WhatsApp</a>
                                                       </div>
                                                       <small class="text-dark">Durasi 24 Jam</small>
                                                 </div>
@@ -220,7 +238,7 @@ src="https://www.facebook.com/tr?id=631426645796596&ev=PageView&noscript=1"
                                                       <div class="btn-group">
                                                             <a href="tel:082386318333" class="btn btn-warning">Telepon</a>
                                                             &nbsp;&nbsp;&nbsp;
-                                                            <a href="https://api.whatsapp.com/send?phone=6282386318333&text=Mas,%20saya%20mau%20rental%20mobil%20( Avanza Mt : Rp. 300.000 )%20-%20From%20www.rentcarprofessional.com" class="btn btn-success">WhatsApp</a>
+                                                            <a href="https://api.whatsapp.com/send?phone=6282386318333&text=Mas,%20saya%20mau%20rental%20mobil%20( Avanza Mt : Rp. 300.000 )%20-%20From%20www.rentcarprofessional.com" class="btn btn-success" onclick="return gtag_report_conversion(this.href);">WhatsApp</a>
                                                       </div>
                                                       <small class="text-dark">Durasi 24 Jam</small>
                                                 </div>
@@ -238,7 +256,7 @@ src="https://www.facebook.com/tr?id=631426645796596&ev=PageView&noscript=1"
                                                       <div class="btn-group">
                                                             <a href="tel:082386318333" class="btn btn-warning">Telepon</a>
                                                             &nbsp;&nbsp;&nbsp;
-                                                            <a href="https://api.whatsapp.com/send?phone=6282386318333&text=Mas,%20saya%20mau%20rental%20mobil%20( Brio Mt : Rp. 350.000 )%20-%20From%20www.rentcarprofessional.com" class="btn btn-success">WhatsApp</a>
+                                                            <a href="https://api.whatsapp.com/send?phone=6282386318333&text=Mas,%20saya%20mau%20rental%20mobil%20( Brio Mt : Rp. 350.000 )%20-%20From%20www.rentcarprofessional.com" class="btn btn-success" onclick="return gtag_report_conversion(this.href);">WhatsApp</a>
                                                       </div>
                                                       <small class="text-dark">Durasi 24 Jam</small>
                                                 </div>
@@ -255,7 +273,7 @@ src="https://www.facebook.com/tr?id=631426645796596&ev=PageView&noscript=1"
                                                       <div class="btn-group">
                                                             <a href="tel:082386318333" class="btn btn-warning">Telepon</a>
                                                             &nbsp;&nbsp;&nbsp;
-                                                            <a href="https://api.whatsapp.com/send?phone=6282386318333&text=Mas,%20saya%20mau%20rental%20mobil%20( Wuling Mt : Rp. 350.000 )%20-%20From%20www.rentcarprofessional.com" class="btn btn-success">WhatsApp</a>
+                                                            <a href="https://api.whatsapp.com/send?phone=6282386318333&text=Mas,%20saya%20mau%20rental%20mobil%20( Wuling Mt : Rp. 350.000 )%20-%20From%20www.rentcarprofessional.com" class="btn btn-success" onclick="return gtag_report_conversion(this.href);">WhatsApp</a>
                                                       </div>
                                                       <small class="text-dark">Durasi 24 Jam</small>
                                                 </div>
@@ -273,7 +291,7 @@ src="https://www.facebook.com/tr?id=631426645796596&ev=PageView&noscript=1"
                                                       <div class="btn-group">
                                                             <a href="tel:082386318333" class="btn btn-warning">Telepon</a>
                                                             &nbsp;&nbsp;&nbsp;
-                                                            <a href="https://api.whatsapp.com/send?phone=6282386318333&text=Mas,%20saya%20mau%20rental%20mobil%20( Avanza At : Rp. 400.000 )%20-%20From%20www.rentcarprofessional.com" class="btn btn-success">WhatsApp</a>
+                                                            <a href="https://api.whatsapp.com/send?phone=6282386318333&text=Mas,%20saya%20mau%20rental%20mobil%20( Avanza At : Rp. 400.000 )%20-%20From%20www.rentcarprofessional.com" class="btn btn-success" onclick="return gtag_report_conversion(this.href);">WhatsApp</a>
                                                       </div>
                                                       <small class="text-dark">Durasi 24 Jam</small>
                                                 </div>
@@ -290,7 +308,7 @@ src="https://www.facebook.com/tr?id=631426645796596&ev=PageView&noscript=1"
                                                       <div class="btn-group">
                                                             <a href="tel:082386318333" class="btn btn-warning">Telepon</a>
                                                             &nbsp;&nbsp;&nbsp;
-                                                            <a href="https://api.whatsapp.com/send?phone=6282386318333&text=Mas,%20saya%20mau%20rental%20mobil%20( All New Avanza Mt : Rp. 400.000 %20-%20From%20www.rentcarprofessional.com" class="btn btn-success">WhatsApp</a>
+                                                            <a href="https://api.whatsapp.com/send?phone=6282386318333&text=Mas,%20saya%20mau%20rental%20mobil%20( All New Avanza Mt : Rp. 400.000 %20-%20From%20www.rentcarprofessional.com" class="btn btn-success" onclick="return gtag_report_conversion(this.href);">WhatsApp</a>
                                                       </div>
                                                       <small class="text-dark">Durasi 24 Jam</small>
                                                 </div>
@@ -307,7 +325,7 @@ src="https://www.facebook.com/tr?id=631426645796596&ev=PageView&noscript=1"
                                                       <div class="btn-group">
                                                             <a href="tel:082386318333" class="btn btn-warning">Telepon</a>
                                                             &nbsp;&nbsp;&nbsp;
-                                                            <a href="https://api.whatsapp.com/send?phone=6282386318333&text=Mas,%20saya%20mau%20rental%20mobil%20( Xenia Mt : Rp. 400.000 %20-%20From%20www.rentcarprofessional.com" class="btn btn-success">WhatsApp</a>
+                                                            <a href="https://api.whatsapp.com/send?phone=6282386318333&text=Mas,%20saya%20mau%20rental%20mobil%20( Xenia Mt : Rp. 400.000 %20-%20From%20www.rentcarprofessional.com" class="btn btn-success" onclick="return gtag_report_conversion(this.href);">WhatsApp</a>
                                                       </div>
                                                       <small class="text-dark">Durasi 24 Jam</small>
                                                 </div>
@@ -325,7 +343,7 @@ src="https://www.facebook.com/tr?id=631426645796596&ev=PageView&noscript=1"
                                                       <div class="btn-group">
                                                             <a href="tel:082386318333" class="btn btn-warning">Telepon</a>
                                                             &nbsp;&nbsp;&nbsp;
-                                                            <a href="https://api.whatsapp.com/send?phone=6282386318333&text=Mas,%20saya%20mau%20rental%20mobil%20( All New Avanza At : Rp. 450.000 %20-%20From%20www.rentcarprofessional.com" class="btn btn-success">WhatsApp</a>
+                                                            <a href="https://api.whatsapp.com/send?phone=6282386318333&text=Mas,%20saya%20mau%20rental%20mobil%20( All New Avanza At : Rp. 450.000 %20-%20From%20www.rentcarprofessional.com" class="btn btn-success" onclick="return gtag_report_conversion(this.href);">WhatsApp</a>
                                                       </div>
                                                       <small class="text-dark">Durasi 24 Jam</small>
                                                 </div>
@@ -342,7 +360,7 @@ src="https://www.facebook.com/tr?id=631426645796596&ev=PageView&noscript=1"
                                                       <div class="btn-group">
                                                             <a href="tel:082386318333" class="btn btn-warning">Telepon</a>
                                                             &nbsp;&nbsp;&nbsp;
-                                                            <a href="https://api.whatsapp.com/send?phone=6282386318333&text=Mas,%20saya%20mau%20rental%20mobil%20( Xenia At : Rp. 450.000 %20-%20From%20www.rentcarprofessional.com" class="btn btn-success">WhatsApp</a>
+                                                            <a href="https://api.whatsapp.com/send?phone=6282386318333&text=Mas,%20saya%20mau%20rental%20mobil%20( Xenia At : Rp. 450.000 %20-%20From%20www.rentcarprofessional.com" class="btn btn-success" onclick="return gtag_report_conversion(this.href);">WhatsApp</a>
                                                       </div>
                                                       <small class="text-dark">Durasi 24 Jam</small>
                                                 </div>
@@ -359,7 +377,7 @@ src="https://www.facebook.com/tr?id=631426645796596&ev=PageView&noscript=1"
                                                       <div class="btn-group">
                                                             <a href="tel:082386318333" class="btn btn-warning">Telepon</a>
                                                             &nbsp;&nbsp;&nbsp;
-                                                            <a href="https://api.whatsapp.com/send?phone=6282386318333&text=Mas,%20saya%20mau%20rental%20mobil%20( Wuling Cortez 2022 At : Rp. 450.000 )%20-%20From%20www.rentcarprofessional.com" class="btn btn-success">WhatsApp</a>
+                                                            <a href="https://api.whatsapp.com/send?phone=6282386318333&text=Mas,%20saya%20mau%20rental%20mobil%20( Wuling Cortez 2022 At : Rp. 450.000 )%20-%20From%20www.rentcarprofessional.com" class="btn btn-success" onclick="return gtag_report_conversion(this.href);">WhatsApp</a>
                                                       </div>
                                                       <small class="text-dark">Durasi 24 Jam</small>
                                                 </div>
@@ -376,7 +394,7 @@ src="https://www.facebook.com/tr?id=631426645796596&ev=PageView&noscript=1"
                                                       <div class="btn-group">
                                                             <a href="tel:082386318333" class="btn btn-warning">Telepon</a>
                                                             &nbsp;&nbsp;&nbsp;
-                                                            <a href="https://api.whatsapp.com/send?phone=6282386318333&text=Mas,%20saya%20mau%20rental%20mobil%20( Livina At : Rp. 450.000 )%20-%20From%20www.rentcarprofessional.com" class="btn btn-success">WhatsApp</a>
+                                                            <a href="https://api.whatsapp.com/send?phone=6282386318333&text=Mas,%20saya%20mau%20rental%20mobil%20( Livina At : Rp. 450.000 )%20-%20From%20www.rentcarprofessional.com" class="btn btn-success" onclick="return gtag_report_conversion(this.href);">WhatsApp</a>
                                                       </div>
                                                       <small class="text-dark">Durasi 24 Jam</small>
                                                 </div>
@@ -394,7 +412,7 @@ src="https://www.facebook.com/tr?id=631426645796596&ev=PageView&noscript=1"
                                                       <div class="btn-group">
                                                             <a href="tel:082386318333" class="btn btn-warning">Telepon</a>
                                                             &nbsp;&nbsp;&nbsp;
-                                                            <a href="https://api.whatsapp.com/send?phone=6282386318333&text=Mas,%20saya%20mau%20rental%20mobil%20( Innova Reborn Solar Mt : Rp. 550.000 )%20-%20From%20www.rentcarprofessional.com" class="btn btn-success">WhatsApp</a>
+                                                            <a href="https://api.whatsapp.com/send?phone=6282386318333&text=Mas,%20saya%20mau%20rental%20mobil%20( Innova Reborn Solar Mt : Rp. 550.000 )%20-%20From%20www.rentcarprofessional.com" class="btn btn-success" onclick="return gtag_report_conversion(this.href);">WhatsApp</a>
                                                       </div>
                                                       <small class="text-dark">Durasi 24 Jam</small>
                                                 </div>
@@ -411,7 +429,7 @@ src="https://www.facebook.com/tr?id=631426645796596&ev=PageView&noscript=1"
                                                       <div class="btn-group">
                                                             <a href="tel:082386318333" class="btn btn-warning">Telepon</a>
                                                             &nbsp;&nbsp;&nbsp;
-                                                            <a href="https://api.whatsapp.com/send?phone=6282386318333&text=Mas,%20saya%20mau%20rental%20mobil%20( Innova Reborn Solar At : Rp. 550.000 )%20-%20From%20www.rentcarprofessional.com" class="btn btn-success">WhatsApp</a>
+                                                            <a href="https://api.whatsapp.com/send?phone=6282386318333&text=Mas,%20saya%20mau%20rental%20mobil%20( Innova Reborn Solar At : Rp. 550.000 )%20-%20From%20www.rentcarprofessional.com" class="btn btn-success" onclick="return gtag_report_conversion(this.href);">WhatsApp</a>
                                                       </div>
                                                       <small class="text-dark">Durasi 24 Jam</small>
                                                 </div>
@@ -429,7 +447,7 @@ src="https://www.facebook.com/tr?id=631426645796596&ev=PageView&noscript=1"
                                                       <div class="btn-group">
                                                             <a href="tel:082386318333" class="btn btn-warning">Telepon</a>
                                                             &nbsp;&nbsp;&nbsp;
-                                                            <a href="https://api.whatsapp.com/send?phone=6282386318333&text=Mas,%20saya%20mau%20rental%20mobil%20( Zenix : Rp. 900.000 )%20-%20From%20www.rentcarprofessional.com" class="btn btn-success">WhatsApp</a>
+                                                            <a href="https://api.whatsapp.com/send?phone=6282386318333&text=Mas,%20saya%20mau%20rental%20mobil%20( Zenix : Rp. 900.000 )%20-%20From%20www.rentcarprofessional.com" class="btn btn-success" onclick="return gtag_report_conversion(this.href);">WhatsApp</a>
                                                       </div>
                                                       <small class="text-dark">Durasi 24 Jam</small>
                                                 </div>
@@ -447,7 +465,7 @@ src="https://www.facebook.com/tr?id=631426645796596&ev=PageView&noscript=1"
                                                       <div class="btn-group">
                                                             <a href="tel:082386318333" class="btn btn-warning">Telepon</a>
                                                             &nbsp;&nbsp;&nbsp;
-                                                            <a href="https://api.whatsapp.com/send?phone=6282386318333&text=Mas,%20saya%20mau%20rental%20mobil%20( Hiace : Rp. 1.000.000 )%20-%20From%20www.rentcarprofessional.com" class="btn btn-success">WhatsApp</a>
+                                                            <a href="https://api.whatsapp.com/send?phone=6282386318333&text=Mas,%20saya%20mau%20rental%20mobil%20( Hiace : Rp. 1.000.000 )%20-%20From%20www.rentcarprofessional.com" class="btn btn-success" onclick="return gtag_report_conversion(this.href);">WhatsApp</a>
                                                       </div>
                                                       <small class="text-dark">Durasi 24 Jam</small>
                                                 </div>
@@ -465,7 +483,7 @@ src="https://www.facebook.com/tr?id=631426645796596&ev=PageView&noscript=1"
                                                       <div class="btn-group">
                                                             <a href="tel:082386318333" class="btn btn-warning">Telepon</a>
                                                             &nbsp;&nbsp;&nbsp;
-                                                            <a href="https://api.whatsapp.com/send?phone=6282386318333&text=Mas,%20saya%20mau%20rental%20mobil%20( Pajero : Rp. 1.300.000 %20-%20From%20www.rentcarprofessional.com" class="btn btn-success">WhatsApp</a>
+                                                            <a href="https://api.whatsapp.com/send?phone=6282386318333&text=Mas,%20saya%20mau%20rental%20mobil%20( Pajero : Rp. 1.300.000 %20-%20From%20www.rentcarprofessional.com" class="btn btn-success" onclick="return gtag_report_conversion(this.href);">WhatsApp</a>
                                                       </div>
                                                       <small class="text-dark">Durasi 24 Jam</small>
                                                 </div>
@@ -482,7 +500,7 @@ src="https://www.facebook.com/tr?id=631426645796596&ev=PageView&noscript=1"
                                                       <div class="btn-group">
                                                             <a href="tel:082386318333" class="btn btn-warning">Telepon</a>
                                                             &nbsp;&nbsp;&nbsp;
-                                                            <a href="https://api.whatsapp.com/send?phone=6282386318333&text=Mas,%20saya%20mau%20rental%20mobil%20( Fortuner : Rp. 1.300.000 %20-%20From%20www.rentcarprofessional.com" class="btn btn-success">WhatsApp</a>
+                                                            <a href="https://api.whatsapp.com/send?phone=6282386318333&text=Mas,%20saya%20mau%20rental%20mobil%20( Fortuner : Rp. 1.300.000 %20-%20From%20www.rentcarprofessional.com" class="btn btn-success" onclick="return gtag_report_conversion(this.href);">WhatsApp</a>
                                                       </div>
                                                       <small class="text-dark">Durasi 24 Jam</small>
                                                 </div>
@@ -500,7 +518,7 @@ src="https://www.facebook.com/tr?id=631426645796596&ev=PageView&noscript=1"
                                                       <div class="btn-group">
                                                             <a href="tel:082386318333" class="btn btn-warning">Telepon</a>
                                                             &nbsp;&nbsp;&nbsp;
-                                                            <a href="https://api.whatsapp.com/send?phone=6282386318333&text=Mas,%20saya%20mau%20rental%20mobil%20( Alphard : Rp. 2.500.000 )%20-%20From%20www.rentcarprofessional.com" class="btn btn-success">WhatsApp</a>
+                                                            <a href="https://api.whatsapp.com/send?phone=6282386318333&text=Mas,%20saya%20mau%20rental%20mobil%20( Alphard : Rp. 2.500.000 )%20-%20From%20www.rentcarprofessional.com" class="btn btn-success" onclick="return gtag_report_conversion(this.href);">WhatsApp</a>
                                                       </div>
                                                       <small class="text-dark">Durasi 24 Jam</small>
                                                 </div>
@@ -508,11 +526,11 @@ src="https://www.facebook.com/tr?id=631426645796596&ev=PageView&noscript=1"
                                     </div>
                               </div>
                               <!-- DISEMBUNYIKAN -->
-                              <!-- <div class="col"><div class="card shadow-sm" style="background: transparent;border: 2px solid;"><img src="img/8.ErtigaMt.png" alt="" class="img-fluid"><div class="card-body"><h4>Ertiga Mt</h4><p class="card-text fs-2"><b>Rp. 300.000</b></p><div class="d-flex justify-content-between align-items-center"><div class="btn-group"><a href="tel:082386318333" class="btn btn-warning">Telepon</a>&nbsp;&nbsp;&nbsp;<a href="https://api.whatsapp.com/send?phone=6282386318333&text=Mas,%20saya%20mau%20rental%20mobil%20( Ertiga Mt : Rp. 300.000 )%20-%20From%20www.rentcarprofessional.com" class="btn btn-success">WhatsApp</a></div><small class="text-dark">Durasi 24 Jam</small></div></div></div></div> -->
-                              <!-- <div class="col"><div class="card shadow-sm" style="background: transparent;border: 2px solid;"><img src="img/11.JukeAt.png" alt="" class="img-fluid"><div class="card-body"><h4>Juke At</h4><p class="card-text fs-2"><b>Rp. 400.000</b></p><div class="d-flex justify-content-between align-items-center"><div class="btn-group"><a href="tel:082386318333" class="btn btn-warning">Telepon</a>&nbsp;&nbsp;&nbsp;<a href="https://api.whatsapp.com/send?phone=6282386318333&text=Mas,%20saya%20mau%20rental%20mobil%20( Juke At : Rp. 400.000 )%20-%20From%20www.rentcarprofessional.com" class="btn btn-success">WhatsApp</a></div><small class="text-dark">Durasi 24 Jam</small></div></div></div></div> -->
-                              <!-- <div class="col"><div class="card shadow-sm" style="background: transparent;border: 2px solid;"><img src="img/14.BRVAt.png" alt="" class="img-fluid"><div class="card-body"><h4>BRV At</h4><p class="card-text fs-2"><b>Rp. 650.000</b></p><div class="d-flex justify-content-between align-items-center"><div class="btn-group"><a href="tel:082386318333" class="btn btn-warning">Telepon</a>&nbsp;&nbsp;&nbsp;<a href="https://api.whatsapp.com/send?phone=6282386318333&text=Mas,%20saya%20mau%20rental%20mobil%20( BRV At : Rp. 650.000 %20-%20From%20www.rentcarprofessional.com" class="btn btn-success">WhatsApp</a></div><small class="text-dark">Durasi 24 Jam</small></div></div></div></div> -->
+                              <!-- <div class="col"><div class="card shadow-sm" style="background: transparent;border: 2px solid;"><img src="img/8.ErtigaMt.png" alt="" class="img-fluid"><div class="card-body"><h4>Ertiga Mt</h4><p class="card-text fs-2"><b>Rp. 300.000</b></p><div class="d-flex justify-content-between align-items-center"><div class="btn-group"><a href="tel:082386318333" class="btn btn-warning">Telepon</a>&nbsp;&nbsp;&nbsp;<a href="https://api.whatsapp.com/send?phone=6282386318333&text=Mas,%20saya%20mau%20rental%20mobil%20( Ertiga Mt : Rp. 300.000 )%20-%20From%20www.rentcarprofessional.com" class="btn btn-success" onclick="return gtag_report_conversion(this.href);">WhatsApp</a></div><small class="text-dark">Durasi 24 Jam</small></div></div></div></div> -->
+                              <!-- <div class="col"><div class="card shadow-sm" style="background: transparent;border: 2px solid;"><img src="img/11.JukeAt.png" alt="" class="img-fluid"><div class="card-body"><h4>Juke At</h4><p class="card-text fs-2"><b>Rp. 400.000</b></p><div class="d-flex justify-content-between align-items-center"><div class="btn-group"><a href="tel:082386318333" class="btn btn-warning">Telepon</a>&nbsp;&nbsp;&nbsp;<a href="https://api.whatsapp.com/send?phone=6282386318333&text=Mas,%20saya%20mau%20rental%20mobil%20( Juke At : Rp. 400.000 )%20-%20From%20www.rentcarprofessional.com" class="btn btn-success" onclick="return gtag_report_conversion(this.href);">WhatsApp</a></div><small class="text-dark">Durasi 24 Jam</small></div></div></div></div> -->
+                              <!-- <div class="col"><div class="card shadow-sm" style="background: transparent;border: 2px solid;"><img src="img/14.BRVAt.png" alt="" class="img-fluid"><div class="card-body"><h4>BRV At</h4><p class="card-text fs-2"><b>Rp. 650.000</b></p><div class="d-flex justify-content-between align-items-center"><div class="btn-group"><a href="tel:082386318333" class="btn btn-warning">Telepon</a>&nbsp;&nbsp;&nbsp;<a href="https://api.whatsapp.com/send?phone=6282386318333&text=Mas,%20saya%20mau%20rental%20mobil%20( BRV At : Rp. 650.000 %20-%20From%20www.rentcarprofessional.com" class="btn btn-success" onclick="return gtag_report_conversion(this.href);">WhatsApp</a></div><small class="text-dark">Durasi 24 Jam</small></div></div></div></div> -->
                               <?php /* XPANDER AT - disembunyikan
-                              <div class="col"><div class="card shadow-sm" style="background: transparent;border: 2px solid;"><img src="img/19.Xpander.png" alt="" class="img-fluid"><div class="card-body"><h4>Xpander At</h4><p class="card-text fs-2"><b>Rp. 450.000</b></p><div class="d-flex justify-content-between align-items-center"><div class="btn-group"><a href="tel:082386318333" class="btn btn-warning">Telepon</a>&nbsp;&nbsp;&nbsp;<a href="https://api.whatsapp.com/send?phone=6282386318333&text=Mas,%20saya%20mau%20rental%20mobil%20( Xpander At : Rp. 450.000 )%20-%20From%20www.rentcarprofessional.com" class="btn btn-success">WhatsApp</a></div><small class="text-dark">Durasi 24 Jam</small></div></div></div></div>
+                              <div class="col"><div class="card shadow-sm" style="background: transparent;border: 2px solid;"><img src="img/19.Xpander.png" alt="" class="img-fluid"><div class="card-body"><h4>Xpander At</h4><p class="card-text fs-2"><b>Rp. 450.000</b></p><div class="d-flex justify-content-between align-items-center"><div class="btn-group"><a href="tel:082386318333" class="btn btn-warning">Telepon</a>&nbsp;&nbsp;&nbsp;<a href="https://api.whatsapp.com/send?phone=6282386318333&text=Mas,%20saya%20mau%20rental%20mobil%20( Xpander At : Rp. 450.000 )%20-%20From%20www.rentcarprofessional.com" class="btn btn-success" onclick="return gtag_report_conversion(this.href);">WhatsApp</a></div><small class="text-dark">Durasi 24 Jam</small></div></div></div></div>
                               */ ?>
                         </div>
                   </div>

@@ -61,9 +61,27 @@ src="https://www.facebook.com/tr?id=631426645796596&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Meta Pixel Code -->
 
+<!-- Event snippet for Contact conversion page -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-18111171205/PNnyCIKAyqAcEIWVirxD',
+      'value': 1.0,
+      'currency': 'IDR',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
+
   </head>
   <body>
-  <a href="https://api.whatsapp.com/send?phone=6282386318333&text=Mas,%20saya%20mau%20rental%20mobil%20-%20From%20www.rentcarprofessional.com" class="float" target="_blank">
+  <a href="https://api.whatsapp.com/send?phone=6282386318333&text=Mas,%20saya%20mau%20rental%20mobil%20-%20From%20www.rentcarprofessional.com" class="float" target="_blank" onclick="gtag_report_conversion();">
             <i class="fa fa-whatsapp my-float"></i>
       </a>
       <main>
