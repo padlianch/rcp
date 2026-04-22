@@ -1,0 +1,10 @@
+# Kredensial & konfigurasi lokal
+.env
+.env.local
+
+# DDEV
+.ddev/
+
+# OS
+.DS_Store
+Thumbs.db

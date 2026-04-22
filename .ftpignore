@@ -1,0 +1,8 @@
+.env
+.env.local
+.gitignore
+.ftpignore
+.ddev
+.DS_Store
+rentcarp_db.sql
+CLAUDE.md

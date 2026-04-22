@@ -27,6 +27,15 @@
 
       gtag('config', 'AW-987335262');
       </script>
+      <!-- Google tag (gtag.js) -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18111171205"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'AW-18111171205');
+      </script>
 
       <script>
       gtag('config', 'AW-987335262/Ggp3CLau1PsDEN6U5tYD', {
