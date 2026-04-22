@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: 
+Disallow: /cgi-bin/
+Disallow: /css/
+Disallow: /img/
+Disallow: /js/
+Disallow: /class/
+Disallow: /counter/
+Sitemap: https://www.rentcarprofessional.com/sitemap.xml
